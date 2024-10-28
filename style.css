@@ -19,10 +19,9 @@
 
 .small-img {
     width: 175px;
-    height: auto;
-    padding-right: 10px;
-    margin-top: 4px;
-    margin-bottom: 4px; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
 }
 
 img {
@@ -55,7 +54,8 @@ footer {
     text-align: center;
     clear: both;
     margin-top: 40px;
-    color: green}
+    color: green; /* Corrected property to change text color */
+}
 header {
     text-align : center;
 }
